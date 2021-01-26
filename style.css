@@ -1,3 +1,11 @@
+/* color scheme
+black: #000000
+navy: #14213D
+orange: #FCA311
+grey: #E5E5E5
+white: #FFFFFF
+ */
+
 body {
   margin: 0;
   font-family: 'monaco';
@@ -11,7 +19,7 @@ body {
 
 .nav {
   overflow: hidden;
-  background-color:#2C3D55;
+  background-color:#14213D;
 }
 /* #home{
   content: url('resources/pixil-earth.png');
@@ -33,12 +41,12 @@ h1{
 }
 
 .nav a:hover {
-  background-color: #F3F9D2;
+  background-color: #FCA311;
   color: black;
 }
 
 .nav a.active {
-  background-color: #6A687A;
+  background-color:#FCA311;
   color: white;
 }
 
@@ -59,9 +67,33 @@ h1{
   height: auto;
 }
 
-#projects {
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+#project-list {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+a {
+  color:#14213D;
+}
+
+a:hover {
+  color: #FCA311
+}
+
+#training-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
 }
 
 .footer {
@@ -100,7 +132,7 @@ top:1px;
 
 .btn {
   color:inherit;
-    font-family:inherit;
+  font-family:inherit;
   font-size: inherit;
   background: white;
   padding: 0.3rem 3.4rem;
