@@ -79,11 +79,11 @@ ul {
 }
 
 #about {
-  margin: 8rem;
+  padding: 8rem;
 }
 
 #projects {
-  margin: 8rem;
+  padding: 8rem;
 }
 
 #project-list {
@@ -112,7 +112,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 8rem;
+  padding: 8rem;
 }
 
 .footer {
