@@ -79,11 +79,11 @@ ul {
 }
 
 #about {
-  padding: 8rem;
+  padding: 0 8rem 8rem 8rem;
 }
 
 #projects {
-  padding: 8rem;
+  padding: 0 8rem 8rem 8rem;
 }
 
 #project-list {
