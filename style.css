@@ -9,7 +9,7 @@ white: #FFFFFF
 body {
   margin: 0;
   font-family: 'monaco';
-  background-color: #ffffff;
+  background-color: #E5E5E5;
   /* background-image: url("resources/skyline-white.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -54,12 +54,16 @@ h1{
   text-align: center;
 }
 
-.circular--portrait {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
+.headshot {
+  display: flex;
+  justify-content: center;
+}
+
+.headshot img {
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
+  margin: auto;
 }
 
 .circular--portrait img {
@@ -94,6 +98,12 @@ a:hover {
   align-items: center;
   justify-content: space-evenly;
   /* flex-wrap: wrap; */
+}
+
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .footer {
